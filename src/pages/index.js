@@ -1,15 +1,33 @@
 import React from 'react';
-import Layout from '../components/layout';
+import styled from 'styled-components';
+
+import GlobalStyle from '../styles/GlobalStyle';
+import Wrapper from '../styles/Wrapper';
+import Main from '../styles/Main';
+
+const StyledMarkdown = styled.p`
+    max-width: 960px;
+    line-height: 1.4;
+`;
 
 export default () => (
-    <Layout>
-        <main>
-            <div>
+    <>
+        <GlobalStyle />
+        <Wrapper>
+            <Main>
                 <h1>Nice to meet you.</h1>
-            </div>
-            <div class="markdown">
-                <p>My name's <strong>Sam Millward.</strong> I'm a dedicated, disciplined and creative software engineer.</p>
-            </div>
-        </main>
-    </Layout>
+
+                <StyledMarkdown>
+                    <p>
+                        My name's <strong>Sam Millward.</strong> I'm a
+                        dedicated, disciplined and creative software engineer.
+                    </p>
+                    <p>
+                        I recently graduated coding bootcamp and am searching
+                        for my first Junior Developer role.
+                    </p>
+                </StyledMarkdown>
+            </Main>
+        </Wrapper>
+    </>
 );
