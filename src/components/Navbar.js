@@ -13,13 +13,16 @@ const Navbar = () => {
             <Nav>
                 <Menu>
                     <MenuLink href="/" component={RouterLink} label="About">
-                        <BsPersonSquare />
+                        <BsPersonSquare size={29} />
+                        <h5>About</h5>
                     </MenuLink>
                     <MenuLink href="/" component={RouterLink} label="Contact">
-                        <BiEnvelope />
+                        <BiEnvelope size={32} />
+                        <h5>Contact</h5>
                     </MenuLink>
                     <MenuLink href="/" component={RouterLink} label="CV">
-                        <HiOutlineDocumentText />
+                        <HiOutlineDocumentText size={32} />
+                        <h5>Projects</h5>
                     </MenuLink>
                 </Menu>
             </Nav>
@@ -42,7 +45,7 @@ const Menu = styled.div`
     flex-direction: column;
     height: 100%;
     max-width: 24rem;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     position: relative;
 `;
@@ -58,5 +61,8 @@ const MenuLink = styled.a`
 
     &:hover {
         color: #c46404;
+    }
+    h5 {
+        margin: 0.4rem;
     }
 `;
