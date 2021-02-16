@@ -5,22 +5,24 @@ import { BiEnvelope } from 'react-icons/bi';
 import { BsPersonSquare } from 'react-icons/bs';
 import { HiOutlineDocumentText } from 'react-icons/hi';
 
-import { Link as RouterLink } from 'react-router-dom';
+import { Link } from 'gatsby';
 
 const Navbar = () => {
     return (
         <>
             <Nav>
                 <Menu>
-                    <MenuLink href="/" component={RouterLink} label="About">
+                    <MenuLink to="/">
                         <BsPersonSquare size={29} />
                         <h5>About</h5>
                     </MenuLink>
-                    <MenuLink href="/" component={RouterLink} label="Contact">
+
+                    <MenuLink to="/contact/">
                         <BiEnvelope size={32} />
                         <h5>Contact</h5>
                     </MenuLink>
-                    <MenuLink href="/" component={RouterLink} label="CV">
+
+                    <MenuLink to="/projects/">
                         <HiOutlineDocumentText size={32} />
                         <h5>Projects</h5>
                     </MenuLink>
@@ -50,7 +52,7 @@ const Menu = styled.div`
     position: relative;
 `;
 
-const MenuLink = styled.a`
+const MenuLink = styled(Link)`
     padding: 1rem 2rem;
     cursor: pointer;
     text-align: center;
