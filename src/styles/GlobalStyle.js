@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
         body {
           margin: 0;
           padding: 0;
+          height: 100%;
           color: #69a589;
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
             Helvetica, Arial, sans-serif;
