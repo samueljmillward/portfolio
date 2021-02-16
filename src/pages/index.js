@@ -1,14 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import GlobalStyle from '../styles/GlobalStyle';
-
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
 
 export default () => (
     <>
-        <GlobalStyle />
-        <Navbar />
+        <Layout />
         <Main>
             <Wrapper>
                 <h1>Nice to meet you.</h1>
