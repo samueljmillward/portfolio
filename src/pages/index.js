@@ -4,8 +4,7 @@ import styled from 'styled-components';
 import Layout from '../components/Layout';
 
 export default () => (
-    <>
-        <Layout />
+    <Layout>
         <Main>
             <Wrapper>
                 <h1>Nice to meet you.</h1>
@@ -18,11 +17,11 @@ export default () => (
                     <Hyperlink href="https://www.manchestercodes.com/">
                         Coding Bootcamp
                     </Hyperlink>{' '}
-                    and am searching for my first Junior Developer role.
+                    and am actively searching for a Junior Developer role.
                 </p>
             </Wrapper>
         </Main>
-    </>
+    </Layout>
 );
 
 const Main = styled.div`

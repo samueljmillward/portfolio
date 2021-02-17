@@ -18,8 +18,10 @@
     "@emotion/styled": "^10.0.27",
     "gatsby": "^2.32.3",
     "gatsby-plugin-emotion": "^4.3.2",
+    "gatsby-plugin-react-helmet": "^3.10.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "styled-components": "^5.2.1"
