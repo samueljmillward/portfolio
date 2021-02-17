@@ -5,7 +5,7 @@ import { BiEnvelope } from 'react-icons/bi';
 import { BsPersonSquare } from 'react-icons/bs';
 import { HiOutlineDocumentText } from 'react-icons/hi';
 
-import { Link } from 'gatsby';
+import MenuLink from '../components/MenuLink';
 
 const Navbar = () => {
     return (
@@ -50,21 +50,4 @@ const Menu = styled.div`
     justify-content: center;
     align-items: center;
     position: relative;
-`;
-
-const MenuLink = styled(Link)`
-    padding: 1rem 2rem;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    color: burlywood;
-    transition: all 0.3s ease-in;
-    font-size: 0.9rem;
-
-    &:hover {
-        color: #c46404;
-    }
-    h5 {
-        margin: 0.4rem;
-    }
 `;

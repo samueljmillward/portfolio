@@ -1,7 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import Layout from '../components/Layout';
+import Hyperlink from '../components/Hyperlink';
+import Main from '../styles/Main';
+import Wrapper from '../styles/Wrapper';
 
 export default () => (
     <Layout>
@@ -23,21 +25,3 @@ export default () => (
         </Main>
     </Layout>
 );
-
-const Main = styled.div`
-    height: 42em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
-
-const Wrapper = styled.div`
-    width: 20em;
-    font-size: 1.4em;
-`;
-
-const Hyperlink = styled.a`
-    text-decoration: none;
-    color: #be8418;
-    font-weight: bold;
-`;
