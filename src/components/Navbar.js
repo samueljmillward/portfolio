@@ -12,17 +12,32 @@ const Navbar = () => {
         <>
             <Nav>
                 <Menu>
-                    <MenuLink to="/">
+                    <MenuLink
+                        to="/"
+                        activeStyle={{
+                            color: '#be8418',
+                        }}
+                    >
                         <BsPersonSquare size={29} />
                         <h5>About</h5>
                     </MenuLink>
 
-                    <MenuLink to="/contact/">
+                    <MenuLink
+                        to="/contact/"
+                        activeStyle={{
+                            color: '#be8418',
+                        }}
+                    >
                         <BiEnvelope size={32} />
                         <h5>Contact</h5>
                     </MenuLink>
 
-                    <MenuLink to="/projects/">
+                    <MenuLink
+                        to="/projects/"
+                        activeStyle={{
+                            color: '#be8418',
+                        }}
+                    >
                         <HiOutlineDocumentText size={32} />
                         <h5>Projects</h5>
                     </MenuLink>
@@ -38,7 +53,8 @@ const Nav = styled.nav`
     position: fixed;
     height: 100%;
     width: 5rem;
-    background: #151e4e;
+    background: #060a1f;
+
     z-index: 1;
 `;
 
