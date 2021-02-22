@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Main = styled.div`
-    height: 42em;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;

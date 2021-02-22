@@ -29,6 +29,22 @@ const GlobalStyle = createGlobalStyle`
             display: block;
             color: white;
           }
+
+          h2 {
+            display: block;
+            color: #be8418;
+            font-size: 32px;
+          }
+
+          h3 {
+            display: block;
+            color: #dea5a4;
+            font-size: 22px;
+          }
+
+          ul {
+            color: #97b3ce;
+          }
         }
     
     @font-face {
