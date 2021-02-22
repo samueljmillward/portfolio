@@ -1,6 +1,8 @@
 import React from 'react';
 import GlobalStyle from '../styles/GlobalStyle';
 import Navbar from '../components/Navbar';
+import Main from '../styles/Main';
+import Wrapper from '../styles/Wrapper';
 import Helmet from 'react-helmet';
 import useSiteMetadata from '../hooks/use-sitemetadata';
 
@@ -16,7 +18,9 @@ const Layout = ({ children }) => {
                 <meta name="description" content={description} />
             </Helmet>
             <Navbar />
-            <main>{children} </main>
+            <Main>
+                <Wrapper>{children}</Wrapper>
+            </Main>
         </>
     );
 };

@@ -3,5 +3,15 @@ module.exports = {
         title: 'Samuel Millward',
         description: 'Personal portfolio for Samuel Millawrd',
     },
-    plugins: ['gatsby-plugin-react-helmet'],
+    plugins: [
+        'gatsby-plugin-react-helmet',
+        {
+            resolve: 'gatsby-plugin-mdx',
+            options: {
+                defaultLayouts: {
+                    default: require.resolve('./src/components/Layout.js'),
+                },
+            },
+        },
+    ],
 };
