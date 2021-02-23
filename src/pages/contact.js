@@ -7,7 +7,8 @@ import Layout from '../components/Layout';
 import Hyperlink from '../components/Hyperlink';
 
 const StyledLink = styled(Link)`
-    text-decoration: underlined;
+    font-size: 22px;
+    text-decoration: underline #97b3ce;
     color: #69a589;
 `;
 
@@ -33,9 +34,7 @@ const Index = () => {
                         </Hyperlink>
                     </li>
                 </ul>
-                <StyledLink to="/resume/">
-                    View Online Resume &rarr;{' '}
-                </StyledLink>
+                <StyledLink to="/resume/">View Online CV &rarr; </StyledLink>
             </Layout>
         </>
     );
