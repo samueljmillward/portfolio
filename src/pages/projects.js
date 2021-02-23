@@ -1,10 +1,12 @@
 import React from 'react';
-// import styled from 'styled-components';
-
+import Espresso from '../components/Espresso';
 import Layout from '../components/Layout';
 
 export default () => (
     <>
-        <Layout />
+        <Layout>
+            <h1>Personal Projects</h1>
+            <Espresso />
+        </Layout>
     </>
 );

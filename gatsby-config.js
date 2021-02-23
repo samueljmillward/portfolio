@@ -5,12 +5,21 @@ module.exports = {
     },
     plugins: [
         'gatsby-plugin-react-helmet',
+        'gatsby-transformer-sharp',
+        'gatsby-plugin-sharp',
         {
             resolve: 'gatsby-plugin-mdx',
             options: {
                 defaultLayouts: {
                     default: require.resolve('./src/components/MDXLayout.js'),
                 },
+            },
+        },
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: 'images',
+                path: 'images',
             },
         },
     ],
