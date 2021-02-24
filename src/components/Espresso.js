@@ -4,7 +4,13 @@ import styled from 'styled-components';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 import Image from 'gatsby-image';
 
-const ProjectWrapper = styled('div')``;
+import StyledButton from '../components/StyledButton';
+
+const ProjectWrapper = styled('div')`
+    p:last-of-type {
+        margin: 0;
+    }
+`;
 
 const Espresso = () => {
     const { image } = useStaticQuery(graphql`
@@ -32,6 +38,11 @@ const Espresso = () => {
                     having trouble tracking the seemingly endless variables
                     affecting the espresso brewing process
                 </p>
+                <StyledButton
+                    to={'https://github.com/samueljmillward/espresso'}
+                >
+                    View Source Code
+                </StyledButton>
             </ProjectWrapper>
         </>
     );
