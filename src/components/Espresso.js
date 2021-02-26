@@ -1,16 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import { Link, graphql, useStaticQuery } from 'gatsby';
 import Image from 'gatsby-image';
 
 import StyledButton from '../components/StyledButton';
-
-const ProjectWrapper = styled('div')`
-    p:last-of-type {
-        margin: 0;
-    }
-`;
 
 const Espresso = () => {
     const { image } = useStaticQuery(graphql`
@@ -27,8 +20,8 @@ const Espresso = () => {
 
     return (
         <>
-            <ProjectWrapper>
-                <Link to={'/404'}>
+            <div>
+                <Link to={'/https://github.com/samueljmillward/espresso'}>
                     <Image fluid={image.sharp.fluid} />
                 </Link>
                 <h2>Espresso Tracker</h2>
@@ -43,7 +36,7 @@ const Espresso = () => {
                 >
                     View Source Code
                 </StyledButton>
-            </ProjectWrapper>
+            </div>
         </>
     );
 };

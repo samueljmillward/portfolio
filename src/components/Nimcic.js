@@ -1,17 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import { Link, graphql, useStaticQuery } from 'gatsby';
 import Image from 'gatsby-image';
 
 import StyledButton from './StyledButton';
 import Hyperlink from '../components/Hyperlink';
-
-const ProjectWrapper = styled('div')`
-    p:last-of-type {
-        margin: 0;
-    }
-`;
 
 const Nimcic = () => {
     const { image } = useStaticQuery(graphql`
@@ -28,8 +21,8 @@ const Nimcic = () => {
 
     return (
         <>
-            <ProjectWrapper>
-                <Link to={'/404'}>
+            <div>
+                <Link to={'/https://nimcic.org.uk/'}>
                     <Image fluid={image.sharp.fluid} />
                 </Link>
                 <h2>NIMCIC</h2>
@@ -49,7 +42,7 @@ const Nimcic = () => {
                 <StyledButton to={'https://github.com/samueljmillward/nimcic'}>
                     View Source Code
                 </StyledButton>
-            </ProjectWrapper>
+            </div>
         </>
     );
 };

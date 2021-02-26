@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 import Espresso from '../components/Espresso';
 import Nimcic from '../components/Nimcic';
+import Codewars from '../components/Codewars';
+
 import Layout from '../components/Layout';
 
 const MyProjects = styled('div')`
@@ -18,6 +20,7 @@ export default () => (
             <MyProjects>
                 <Espresso />
                 <Nimcic />
+                <Codewars />
             </MyProjects>
         </Layout>
     </>

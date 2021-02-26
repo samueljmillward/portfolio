@@ -16,7 +16,7 @@ const Index = () => {
     return (
         <>
             <Layout>
-                <h1>Shoot me a line.</h1>
+                <h1 style={{ marginTop: '18rem' }}>Shoot me a line.</h1>
                 <ul>
                     <li>
                         <Hyperlink href="mailto:samuel.j.millward@hotmail.com">

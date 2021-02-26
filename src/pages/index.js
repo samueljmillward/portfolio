@@ -5,7 +5,7 @@ import Hyperlink from '../components/Hyperlink';
 
 export default () => (
     <Layout>
-        <h1>Nice to meet you.</h1>
+        <h1 style={{ marginTop: '18rem' }}>Nice to meet you.</h1>
         <p>
             My name's <strong>Sam Millward.</strong> I'm a dedicated,
             disciplined and creative software engineer.
