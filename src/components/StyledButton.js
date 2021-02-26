@@ -13,6 +13,7 @@ const StyledButton = styled(Link)`
         border-bottom: 1px solid;
         padding: 3px;
         transition-property: all 0.2s;
+        margin: 0 3em 3em 0;
     }
 
     &:hover {

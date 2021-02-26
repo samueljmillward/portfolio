@@ -4,7 +4,8 @@ import styled from 'styled-components';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 import Image from 'gatsby-image';
 
-import StyledButton from '../components/StyledButton';
+import StyledButton from './StyledButton';
+import Hyperlink from '../components/Hyperlink';
 
 const ProjectWrapper = styled('div')`
     p:last-of-type {
@@ -12,10 +13,10 @@ const ProjectWrapper = styled('div')`
     }
 `;
 
-const Espresso = () => {
+const Nimcic = () => {
     const { image } = useStaticQuery(graphql`
         query {
-            image: file(relativePath: { eq: "espresso.png" }) {
+            image: file(relativePath: { eq: "nimcic.png" }) {
                 sharp: childImageSharp {
                     fluid {
                         ...GatsbyImageSharpFluid_withWebp
@@ -31,16 +32,21 @@ const Espresso = () => {
                 <Link to={'/404'}>
                     <Image fluid={image.sharp.fluid} />
                 </Link>
-                <h2>Espresso Tracker</h2>
-                <h3>In Development</h3>
+                <h2>NIMCIC</h2>
+                <h3>
+                    <Hyperlink
+                        style={{ color: '#dea5a4' }}
+                        href="https://nimcic.org.uk/"
+                    >
+                        Viewable at nimcic.org.uk
+                    </Hyperlink>
+                </h3>
                 <p>
-                    A data tracking React application aimed at Home Baristas
-                    having trouble tracking the seemingly endless variables
-                    affecting the espresso brewing process.
+                    Static, single page and fully responsive site detailing
+                    future projects of the New Islington Marina Community.
                 </p>
-                <StyledButton
-                    to={'https://github.com/samueljmillward/espresso'}
-                >
+                <p>Written in HTML and CSS. Utilising Sass and BEM.</p>
+                <StyledButton to={'https://github.com/samueljmillward/nimcic'}>
                     View Source Code
                 </StyledButton>
             </ProjectWrapper>
@@ -48,4 +54,4 @@ const Espresso = () => {
     );
 };
 
-export default Espresso;
+export default Nimcic;
