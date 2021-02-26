@@ -1,30 +1,12 @@
 import React from 'react';
 
-import { Link, graphql, useStaticQuery } from 'gatsby';
-import Image from 'gatsby-image';
-
 import StyledButton from '../components/StyledButton';
 import Hyperlink from '../components/Hyperlink';
 
 const Codewars = () => {
-    const { image } = useStaticQuery(graphql`
-        query {
-            image: file(relativePath: { eq: "codewars3.png" }) {
-                sharp: childImageSharp {
-                    fluid {
-                        ...GatsbyImageSharpFluid_withWebp
-                    }
-                }
-            }
-        }
-    `);
-
     return (
         <>
             <div>
-                <Link to={'https://github.com/samueljmillward/kata-dojo'}>
-                    <Image fluid={image.sharp.fluid} />
-                </Link>
                 <h2>Codewars Solutions</h2>
                 <Hyperlink
                     style={{ color: '#dea5a4' }}

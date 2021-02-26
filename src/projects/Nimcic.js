@@ -3,7 +3,7 @@ import React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 import Image from 'gatsby-image';
 
-import StyledButton from './StyledButton';
+import StyledButton from '../components/StyledButton';
 import Hyperlink from '../components/Hyperlink';
 
 const Nimcic = () => {

@@ -1,9 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Espresso from '../components/Espresso';
-import Nimcic from '../components/Nimcic';
-import Codewars from '../components/Codewars';
+import Espresso from '../projects/Espresso';
+import Nimcic from '../projects/Nimcic';
+import Codewars from '../projects/Codewars';
+import Philosofind from '../projects/Philosofind';
+import Portfolio from '../projects/Portfolio';
 
 import Layout from '../components/Layout';
 
@@ -20,6 +22,8 @@ export default () => (
             <MyProjects>
                 <Espresso />
                 <Nimcic />
+                <Philosofind />
+                <Portfolio />
                 <Codewars />
             </MyProjects>
         </Layout>
