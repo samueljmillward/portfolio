@@ -56,6 +56,18 @@ const Nav = styled.nav`
     background: #060a1f;
 
     z-index: 1;
+
+    @media (max-width: 1100px) {
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgb(32, 35, 41);
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 `;
 
 const Menu = styled.div`
@@ -66,4 +78,11 @@ const Menu = styled.div`
     justify-content: center;
     align-items: center;
     position: relative;
+
+    @media (max-width: 1100px) {
+        flex-direction: row;
+        background: rgb(32, 35, 41);
+        width: 5rem;
+        height: 100%;
+    }
 `;

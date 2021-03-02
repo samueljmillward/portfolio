@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-
 import { Link } from 'gatsby';
 
 const StyledButton = styled(Link)`
@@ -18,8 +17,7 @@ const StyledButton = styled(Link)`
 
     &:hover {
         border-radius: 2px;
-        background-color: #69a589;
-        color: white;
+        color: #69a589;
         box-shadow: 0 1rem 2rem rgba(black, 0.15);
         transform: translateY(-0.2rem);
     }

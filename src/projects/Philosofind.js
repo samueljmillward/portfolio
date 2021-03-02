@@ -31,7 +31,7 @@ const Philosofind = () => {
                         style={{ color: '#dea5a4' }}
                         href="https://philosofind.co.uk/"
                     >
-                        Viewable at philosofind.org.uk
+                        Viewable at philosofind.co.uk
                     </Hyperlink>
                 </h3>
                 <p>
