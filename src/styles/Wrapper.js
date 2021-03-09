@@ -1,19 +1,34 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-    max-width: 24em;
     font-size: 1.4em;
+    padding: 1.5rem;
+    padding-bottom: 5rem;
 
     @media (max-width: 1100px) {
-        font-size: 1.8em;
+        p {
+            max-width: 640px;
+        }
     }
 
-    @media (max-width: 850px) {
-        font-size: 1.2em;
+    @media (max-width: 870px) {
+        font-size: 1.1em;
+        p {
+            max-width: 520px;
+        }
     }
 
-    @media (max-width: 400px) {
-        font-size: 0.8em;
+    @media (max-width: 450px) {
+        font-size: 1em;
+        p {
+            max-width: 280px;
+        }
+
+        h3,
+        h2,
+        h1 {
+            font-size: 1.3em;
+        }
     }
 `;
 

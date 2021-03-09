@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
           }
 
           p {
-            max-width: 960px;
+            max-width: 720px;
             line-height: 1.4;
 
             p:last-of-type {

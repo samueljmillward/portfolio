@@ -18,7 +18,7 @@ const Navbar = () => {
                             color: '#be8418',
                         }}
                     >
-                        <BsPersonSquare size={29} />
+                        <BsPersonSquare size={32} />
                         <h5>About</h5>
                     </MenuLink>
 
@@ -61,7 +61,7 @@ const Nav = styled.nav`
         left: 0;
         bottom: 0;
         right: 0;
-        background: rgb(32, 35, 41);
+        background: #0d122d;
         width: 100%;
         height: 5rem;
         display: flex;
@@ -81,7 +81,7 @@ const Menu = styled.div`
 
     @media (max-width: 1100px) {
         flex-direction: row;
-        background: rgb(32, 35, 41);
+        background: #0d122d;
         width: 5rem;
         height: 100%;
     }

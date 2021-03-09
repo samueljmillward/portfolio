@@ -2,10 +2,11 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Hyperlink from '../components/Hyperlink';
+import StyledHeader from '../components/StyledHeader';
 
 export default () => (
     <Layout>
-        <h1 style={{ marginTop: '18rem' }}>Nice to meet you.</h1>
+        <StyledHeader>Nice to meet you.</StyledHeader>
         <p>
             My name's <strong>Sam Millward.</strong> I'm a dedicated,
             disciplined and creative software engineer.

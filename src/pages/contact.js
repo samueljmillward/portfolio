@@ -5,6 +5,7 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 import Hyperlink from '../components/Hyperlink';
+import StyledHeader from '../components/StyledHeader';
 
 const StyledLink = styled(Link)`
     font-size: 22px;
@@ -16,7 +17,7 @@ const Index = () => {
     return (
         <>
             <Layout>
-                <h1 style={{ marginTop: '18rem' }}>Shoot me a line.</h1>
+                <StyledHeader>Shoot me a line.</StyledHeader>
                 <ul>
                     <li>
                         <Hyperlink href="mailto:samuel.j.millward@hotmail.com">
