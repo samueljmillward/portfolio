@@ -32,7 +32,10 @@ const Portfolio = () => {
                     </Hyperlink>
                 </h3>
                 <p>Portfolio detailing my personal, pet projects.</p>
-                <p>Built using Gatsby with styled-components.</p>
+                <p>
+                    Fully responsive and built using Gatsby with
+                    styled-components.
+                </p>
                 <StyledButton
                     to={'https://github.com/samueljmillward/portfolio'}
                 >
