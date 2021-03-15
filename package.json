@@ -14,8 +14,6 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.28",
-    "@emotion/styled": "^10.0.27",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "gatsby": "^2.32.8",
@@ -32,10 +30,10 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
-    "styled-components": "^5.2.1",
-    "styled-icons": "^10.28.0"
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.21",
     "prettier": "2.0.5"
   },
   "repository": {

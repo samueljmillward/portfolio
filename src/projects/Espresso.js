@@ -31,6 +31,11 @@ const Espresso = () => {
                     having trouble tracking the seemingly endless variables
                     affecting the espresso brewing process.
                 </p>
+
+                <p>
+                    Built using React and Material UI with React-Hook-Form and
+                    Yup's schema validation.
+                </p>
                 <StyledButton
                     to={'https://github.com/samueljmillward/espresso'}
                 >

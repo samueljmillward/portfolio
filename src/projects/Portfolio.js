@@ -31,10 +31,9 @@ const Portfolio = () => {
                         Viewable at samueljmillward.com
                     </Hyperlink>
                 </h3>
-                <p>Portfolio detailing my personal, pet projects.</p>
+                <p>Portfolio detailing my personal pet projects.</p>
                 <p>
-                    Fully responsive and built using Gatsby with
-                    styled-components.
+                    Fully responsive, built using Gatsby with styled-components.
                 </p>
                 <StyledButton
                     to={'https://github.com/samueljmillward/portfolio'}
