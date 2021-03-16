@@ -31,5 +31,11 @@ module.exports = {
                 analyzerMode: 'json',
             },
         },
+        {
+            resolve: 'gatsby-plugin-styled-components',
+            options: {
+                //
+            },
+        },
     ],
 };

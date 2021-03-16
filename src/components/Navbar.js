@@ -15,7 +15,7 @@ const Navbar = () => {
                     <MenuLink
                         to="/"
                         activeStyle={{
-                            color: '#be8418',
+                            color: '#c46404',
                         }}
                     >
                         <BsPersonSquare size={32} />
@@ -25,7 +25,7 @@ const Navbar = () => {
                     <MenuLink
                         to="/contact/"
                         activeStyle={{
-                            color: '#be8418',
+                            color: '#c46404',
                         }}
                     >
                         <BiEnvelope size={32} />
@@ -35,7 +35,7 @@ const Navbar = () => {
                     <MenuLink
                         to="/projects/"
                         activeStyle={{
-                            color: '#be8418',
+                            color: '#c46404',
                         }}
                     >
                         <HiOutlineDocumentText size={32} />

@@ -12,11 +12,8 @@ export default () => (
             disciplined and creative software engineer.
         </p>
         <p>
-            I recently graduated{' '}
-            <Hyperlink href="https://www.manchestercodes.com/">
-                Coding Bootcamp
-            </Hyperlink>{' '}
-            and am actively searching for a Junior Developer role.
+            I recently graduated <strong>Coding Bootcamp</strong> and am
+            actively searching for a Junior Developer role.
         </p>
     </Layout>
 );
