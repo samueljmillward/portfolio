@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import Hyperlink from '../components/Hyperlink';
 import StyledHeader from '../components/StyledHeader';
 
 export default () => (

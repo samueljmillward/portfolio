@@ -6,7 +6,7 @@ const StyledHeader = styled.h1`
     margin-top: 14rem;
 
     @media (max-width: 600px) {
-        margin-top: 10rem;
+        margin-top: 8rem;
     }
 `;
 

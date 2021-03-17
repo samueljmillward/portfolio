@@ -5,6 +5,10 @@ const Wrapper = styled.div`
     padding: 1.5rem;
     padding-bottom: 5rem;
 
+    p {
+        margin-bottom: 3rem;
+    }
+
     @media (max-width: 1100px) {
         p {
             max-width: 640px;
@@ -19,9 +23,10 @@ const Wrapper = styled.div`
     }
 
     @media (max-width: 450px) {
-        font-size: 1em;
+        font-size: 1.2em;
         p {
             max-width: 280px;
+            margin-bottom: 2rem;
         }
 
         h3,
