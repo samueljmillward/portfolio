@@ -6,7 +6,7 @@ const Wrapper = styled.div`
     padding-bottom: 5rem;
 
     p {
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
     }
 
     @media (max-width: 1100px) {
