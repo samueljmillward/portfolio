@@ -22,7 +22,6 @@ export default () => (
             <MyProjects>
                 <Espresso />
                 <Nimcic />
-                <Philosofind />
                 <Portfolio />
                 <Codewars />
             </MyProjects>
