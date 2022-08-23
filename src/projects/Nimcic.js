@@ -29,9 +29,9 @@ const Nimcic = () => {
                 <h3>
                     <Hyperlink
                         style={{ color: '#dea5a4' }}
-                        href="https://nimcic.org.uk/"
+                        href="https://github.com/samueljmillward/nimcic"
                     >
-                        Viewable at nimcic.org.uk
+                        Source code viewable on GitHub
                     </Hyperlink>
                 </h3>
                 <p>
